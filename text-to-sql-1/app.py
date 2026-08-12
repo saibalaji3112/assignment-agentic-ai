@@ -2,7 +2,7 @@ import sqlite3
 import os
 from dotenv import load_dotenv
 from retriever import retrieve_relevant_schema, format_schema
-import google.generativeai as genai
+from google import genai
 from validator import validate_sql
 from answer import generate_answer
 
@@ -13,9 +13,9 @@ api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:
     raise ValueError("GEMINI_API_KEY not found in .env")
 
-genai.configure(api_key=api_key)
+client = genai.Client(api_key=api_key)
 
-model = genai.GenerativeModel("gemini-2.5-flash")
+model = "gemini-3.6-flash"
 
 
 def generate_sql(question, schema):
@@ -41,15 +41,12 @@ User question:
 {question}
 """
 
-    response = model.generate_content(prompt)
+    response = client.models.generate_content(
+        model=model,
+        contents=prompt
+    )
 
-    sql = response.text.strip()
-
-    # Remove markdown if Gemini returns it
-    sql = sql.replace("```sql", "")
-    sql = sql.replace("```", "")
-
-    return sql.strip()
+    return response.text.strip()
 
 
 def execute_sql(sql):
