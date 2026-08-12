@@ -1,7 +1,36 @@
+# Environment variables / API keys
 .env
-rag-qa/.env
+.env.*
+!.env.example
+
+# Python virtual environments
 .venv/
-rag-qa/.venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
-rag-qa/__pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# IDE settings
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Include Question 1 database
+!text-to-sql-1/company.db
