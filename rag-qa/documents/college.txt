@@ -1,0 +1,11 @@
+College Information
+
+The college offers B.Tech programs in Computer Science, Electronics, Electrical Engineering, Mechanical Engineering, and Civil Engineering.
+
+The B.Tech Computer Science program focuses on programming, data structures, algorithms, databases, operating systems, computer networks, artificial intelligence, machine learning, and web development.
+
+The normal duration of a B.Tech program is four years, divided into eight semesters.
+
+Students must complete academic courses, laboratory work, assignments, examinations, and projects.
+
+The final year includes a major project that allows students to apply their technical knowledge to a practical problem.

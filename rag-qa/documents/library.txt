@@ -1,0 +1,11 @@
+Library Information
+
+The college library provides books, reference materials, journals, newspapers, and digital learning resources.
+
+Students can borrow books using their library cards.
+
+The library provides resources for programming, computer science, engineering mathematics, electronics, mechanical engineering, civil engineering, and other academic subjects.
+
+Students should return borrowed books according to the library rules.
+
+The library also provides a quiet environment for individual study and academic research.

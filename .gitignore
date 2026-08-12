@@ -1,3 +1,7 @@
 .env
+rag-qa/.env
+.venv/
+rag-qa/.venv/
 __pycache__/
+rag-qa/__pycache__/
 *.pyc
