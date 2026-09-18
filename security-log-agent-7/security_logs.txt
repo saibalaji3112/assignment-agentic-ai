@@ -1,0 +1,17 @@
+2026-09-18 08:15:21 INFO User admin logged in successfully from IP 192.168.1.10
+
+2026-09-18 08:17:03 WARNING Multiple failed login attempts detected for user admin from IP 185.220.101.45
+
+2026-09-18 08:17:08 WARNING Failed login attempt for user admin from IP 185.220.101.45
+
+2026-09-18 08:17:15 WARNING Failed login attempt for user admin from IP 185.220.101.45
+
+2026-09-18 08:18:02 ALERT Possible brute-force attack detected against SSH service from IP 185.220.101.45
+
+2026-09-18 08:21:44 INFO Firewall blocked connection from IP 185.220.101.45
+
+2026-09-18 08:30:11 INFO User john logged in successfully from IP 192.168.1.25
+
+2026-09-18 08:42:19 ERROR Unauthorized access attempt to /admin/config from IP 203.0.113.50
+
+2026-09-18 08:42:25 ALERT Suspicious request pattern detected from IP 203.0.113.50
