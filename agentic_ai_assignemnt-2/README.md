@@ -1,5 +1,4 @@
 # Agentic AI Assignment 2
-# Agentic AI Assignment 2
 
 This folder contains four Agentic AI projects that demonstrate document-based RAG, AI research, security log analysis, and multi-agent collaboration.
 
